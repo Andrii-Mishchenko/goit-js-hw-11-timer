@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+
+#timer-1 {
+  display: inline-flex;
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.field {
+  display: block;
+  margin: 15px;
+}
+.value {
+  display: block;
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+
+.label {
+  display: block;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}
+
+/* .timer {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 500px;
+  background-color: blue;
+  padding: 15px;
+}
+
+.field {
+  display: block;
+  background-color: yellow;
+}
+
+.value {
+  display: block;
+}
+
+.lable {
+  display: block;
+} */
